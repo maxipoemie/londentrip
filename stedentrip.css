@@ -1,0 +1,86 @@
+body {
+  color: white;
+}
+
+#background {
+  background-image: url("https://www.travelvalley.nl/uploads/headers/10-coolste-dingen-doen-in-londen.jpg");
+  background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+
+#content {
+  background-color: #F4FF00;
+  border: 2px solid 000000;
+  border-radius: 16px;
+  font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  min-width: 256px;
+  padding-top: 8px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+h1 {
+  color: white;
+  background-position: right;
+}
+
+nav ul {
+  display: run-in;
+  margin-left: auto;
+  margin-right: auto;
+	list-style-type: none;
+	background-color: black;
+	border: 2px solid gray;
+	border-radius: 10px;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 1em;
+}
+
+li {
+    display: inline;
+    color: white;
+    margin: 30px;
+    font-size: 20px;
+    text-align: center;
+    float: inherit;
+}
+
+h2 {
+    color: white;
+}
+
+div {
+    text-align: left;
+    color: white;
+}
+
+li a {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  display: inline;
+  color: white;
+  margin: 30px;
+  font-size: 20px;
+  text-align: left;
+  float: inherit;
+}
+
+li a:hover:not(.active) {
+    background-color: #F4FF00;
+}
+
+.active {
+    background-color: #F4FF00;
+    color: white;
+}
