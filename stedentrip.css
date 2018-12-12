@@ -4,10 +4,11 @@ body {
 
 .menu  {
   display:flex;
-  list-style:none;
+  list-style: none;
  }
 
- .menu li{
+ .menu li
+ {
    margin: 16px;
  }
 
