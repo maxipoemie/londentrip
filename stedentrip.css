@@ -28,53 +28,7 @@ body {
   padding-right: 24px;
 }
 
-h1 {
-  color: white;
-  background-position: right;
-}
 
-nav ul {
-  display: run-in;
-  margin-left: auto;
-  margin-right: auto;
-	list-style-type: none;
-	background-color: black;
-	border: 2px solid gray;
-	border-radius: 10px;
-	font-family: sans-serif;
-	font-weight: bold;
-	padding: 1em;
-}
-
-li {
-    display: inline;
-    color: white;
-    margin: 30px;
-    font-size: 20px;
-    text-align: center;
-    float: inherit;
-}
-
-h2 {
-    color: white;
-}
-
-div {
-    text-align: left;
-    color: white;
-}
-
-li a {
-  display: block;
-  padding: 15px 20px;
-  text-decoration: none;
-  display: inline;
-  color: white;
-  margin: 30px;
-  font-size: 20px;
-  text-align: left;
-  float: inherit;
-}
 
 li a:hover:not(.active) {
     background-color: #F4FF00;
