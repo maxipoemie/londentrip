@@ -45,10 +45,10 @@ button {
 }
 
 li a:hover:not(.active) {
-    background-color: #0099ff;
+    background-color: #00FFCF;
 }
 
 .active {
-    background-color: #0099ff;
-    color: aqua;
+    background-color: #00FFCF;
+    color: white;
 }
