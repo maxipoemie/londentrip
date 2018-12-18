@@ -15,6 +15,7 @@ body {
 button {
   width: 100px;
   height: 50px;
+  color: black;
 }
 
 
@@ -44,11 +45,25 @@ button {
   padding-right: 24px;
 }
 
-li a:hover:not(.active) {
-    background-color: #00FFCF;
+ul {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+	list-style-type: none;
+	background-color: #00FFCF;
+	border: 2px solid gray;
+	border-radius: 10px;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: auto;
+}
+
+button:hover:not(.active) {
+    background-color: #52FF00;
+    color: white;
 }
 
 .active {
-    background-color: #00FFCF;
+    background-color: #52FF00;
     color: white;
 }
