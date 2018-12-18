@@ -7,8 +7,7 @@ body {
   list-style: none;
  }
 
- .menu li
- {
+ .menu li {
    margin: 10px;
  }
 
@@ -16,11 +15,12 @@ button {
   width: 50;
   height: 25;
   color: black;
+  background-color: white;
 }
 
 
 #background {
-  background-image: url("https://www.travelvalley.nl/uploads/headers/10-coolste-dingen-doen-in-londen.jpg");
+  background-image: url("https://www.kras.nl/wsmedia/afbeelding/007/093/059.1600x1200/39473-551334580_stadszicht-londen-stadszicht-towerbridge-.jpg");
   background-size: cover;
     width: 100%;
     height: 100%;
