@@ -9,6 +9,7 @@ body {
 
  .menu li {
    margin: 10px;
+   font-style:
  }
 
 #background {
@@ -40,7 +41,7 @@ body {
 a:hover:not(.active) {
   background-color: #FFF700;
   border: none;
-  color: white;
+  color: #00FF91;
   padding: 20px 34px;
   text-align: center;
   text-decoration: none;
@@ -53,7 +54,7 @@ a:hover:not(.active) {
 .active {
   background-color: #FFF700;
   border: none;
-  color: white;
+  color: red;
   padding: 20px 34px;
   text-align: center;
   text-decoration: none;
@@ -65,7 +66,7 @@ a:hover:not(.active) {
 
 a {
   border: none;
-  color: white;
+  color: red;
   padding: 20px 34px;
   text-align: center;
   text-decoration: none;
@@ -73,3 +74,4 @@ a {
   font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
+}
