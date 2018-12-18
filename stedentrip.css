@@ -23,7 +23,7 @@ body {
 }
 
 #content {
-  background-color: #00FFCF;
+  background-color: blue;
   border: 2px solid 000000;
   border-radius: 16px;
   font-family: sans-serif;
@@ -37,21 +37,8 @@ body {
   padding-right: 24px;
 }
 
-ul {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-	list-style-type: none;
-	background-color: #FFAD00;
-	border: 2px solid gray;
-	border-radius: 10px;
-	font-family: sans-serif;
-	font-weight: bold;
-	padding: auto;
-}
-
-button:hover:not(.active) {
-  background-color: black;
+a:hover:not(.active) {
+  background-color: #FFF700;
   border: none;
   color: white;
   padding: 20px 34px;
@@ -64,7 +51,7 @@ button:hover:not(.active) {
 }
 
 .active {
-  background-color: blue;
+  background-color: #FFF700;
   border: none;
   color: white;
   padding: 20px 34px;
@@ -76,15 +63,13 @@ button:hover:not(.active) {
   cursor: pointer;
 }
 
-.button {
-background-color: blue;
-border: none;
-color: white;
-padding: 20px 34px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 20px;
-margin: 4px 2px;
-cursor: pointer;
-}
+a {
+  border: none;
+  color: white;
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
