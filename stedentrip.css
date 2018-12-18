@@ -11,14 +11,6 @@ body {
    margin: 10px;
  }
 
-button {
-  width: 50;
-  height: 25;
-  color: black;
-  background-color: white;
-}
-
-
 #background {
   background-image: url("https://www.kras.nl/wsmedia/afbeelding/007/093/059.1600x1200/39473-551334580_stadszicht-londen-stadszicht-towerbridge-.jpg");
   background-size: cover;
@@ -59,17 +51,33 @@ ul {
 }
 
 button:hover:not(.active) {
-    background-color: #52FF00;
-    color: white;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 .active {
-    background-color: #52FF00;
-    color: white;
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 .button {
-background-color: #FF4500;
+background-color: blue;
 border: none;
 color: white;
 padding: 20px 34px;
