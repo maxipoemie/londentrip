@@ -37,8 +37,8 @@ body {
   padding-right: 24px;
 }
 
-a:hover:not(.active) {
-  background-color: #FFF700;
+.menu a:hover:not(.active) {
+  background-color: blue;
   border: none;
   color: black;
   padding: 20px 34px;
@@ -51,9 +51,9 @@ a:hover:not(.active) {
 }
 
 .active {
-  background-color: #FFF700;
-  border: none;
-  color: black;
+  background-color: red;
+  border:;
+  color: red;
   padding: 20px 34px;
   text-align: center;
   text-decoration: none;
@@ -63,9 +63,10 @@ a:hover:not(.active) {
   cursor: pointer;
 }
 
-a {
+.menu a {
+  background-color:#FFF700;
   border: none;
-  color: black;
+  color: ;
   padding: 20px 34px;
   text-align: center;
   text-decoration: none;
