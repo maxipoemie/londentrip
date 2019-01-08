@@ -5,6 +5,7 @@ body {
 .menu  {
   display:flex;
   list-style: none;
+  position: fixed;
  }
 
  .menu li {
@@ -66,7 +67,7 @@ body {
 
 .menu a {
   background-color:;
-  border: none;
+  border:;
   color:;
   padding: 20px 34px;
   text-align: center;
