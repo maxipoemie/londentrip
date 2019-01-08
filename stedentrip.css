@@ -38,7 +38,7 @@ body {
 }
 
 .menu a:hover:not(.active) {
-  background-color: yellow
+  background-color: yellow;
   border: none;
   color: black;
   padding: 20px 34px;
@@ -83,4 +83,8 @@ td {
 }
 
 tr {
+}
+
+.BC {
+  color: yellow;
 }
