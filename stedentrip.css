@@ -38,7 +38,7 @@ body {
 }
 
 .menu a:hover:not(.active) {
-  background-color: blue;
+  background-color: yellow;
   border: none;
   color: black;
   padding: 20px 34px;
@@ -51,7 +51,7 @@ body {
 }
 
 .active {
-  background-color: red;
+  background-color: yellow;
   border:;
   color: red;
   padding: 20px 34px;
@@ -64,9 +64,9 @@ body {
 }
 
 .menu a {
-  background-color:#FFF700;
+  background-color:;
   border: none;
-  color: ;
+  color:;
   padding: 20px 34px;
   text-align: center;
   text-decoration: none;
