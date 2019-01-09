@@ -90,3 +90,8 @@ li a:hover:not(.active) {
 h1, h2, h3 {
   text-align: center;
 }
+
+.Tabel {
+  margin-left: auto;
+  margin-right: auto;
+}
