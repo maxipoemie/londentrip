@@ -3,23 +3,6 @@ body {
   margin: 0;
 }
 
-.menu  {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-	list-style-type: none;
-	border-radius: 10px;
-	font-family: sans-serif;
-	font-weight: bold;
-	padding: 1em;
-  overflow: hidden;
-  position: fixed
- }
-
- .menu li {
-   margin: 10px;
- }
-
 #background {
   background-image: url("https://cdn.pixabay.com/photo/2014/09/11/18/23/london-441853_960_720.jpg");
   background-size: cover;
@@ -46,46 +29,6 @@ body {
   padding-right: 24px;
 }
 
-.menu a:hover:not(.active) {
-  background-color: yellow;
-  border: none;
-  color: black;
-  padding: 20px 34px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-.active {
-  background-color: yellow;
-  border:;
-  border: dashed;
-  color: red;
-  padding: 20px 34px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-.menu a {
-  background-color:;
-  border: none;
-  color:;
-  padding: 20px 34px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
 td {
   border-style: double;
   border-color: blue;
@@ -95,7 +38,14 @@ tr {
 }
 
 .BC {
-  color: yellow;
+  color: white;
+}
+
+.warning {
+  border-style: solid;
+  border-color: red;
+  background-color: red;
+  color: #D4FF00;
 }
 
 .rainbow {
@@ -104,4 +54,35 @@ tr {
   color:transparent;
   -webkit-background-clip: text;
   background-clip: text;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: khaki;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30
+  margin: 20px;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: limegreen;
+  color: red;
 }
