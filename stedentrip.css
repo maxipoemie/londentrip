@@ -86,3 +86,7 @@ li a:hover:not(.active) {
   background-color: limegreen;
   color: red;
 }
+
+h1, h2, h3 {
+  text-align: center;
+}
