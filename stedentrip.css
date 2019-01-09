@@ -87,9 +87,6 @@ li a:hover:not(.active) {
   color: red;
 }
 
-h1 {
+.Titel {
   text-align: center;
 }
-
-h2 {
-  text-align: center;
