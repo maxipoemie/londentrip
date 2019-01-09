@@ -86,3 +86,7 @@ li a:hover:not(.active) {
   background-color: limegreen;
   color: red;
 }
+
+.Titel {
+  text-align: center;
+}
