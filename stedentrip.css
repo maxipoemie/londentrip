@@ -57,23 +57,24 @@ tr {
 }
 
 ul {
-  overflow: hidden;
   background-color: #333;
-  position: fixed;
+  position: none;
   width: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 li {
   float: left;
+  list-style-type: none;
 }
 
 li a {
-  float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
+  padding: 14px 16px;
   font-size: 17px;
 }
 
