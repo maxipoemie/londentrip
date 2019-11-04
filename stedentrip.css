@@ -1,6 +1,7 @@
 body {
   color: white;
   margin: 0;
+  line-height: 1.6
 }
 
 #background {
@@ -15,7 +16,7 @@ body {
 }
 
 #content {
-  background-color: blue;
+  background-color:rgba(0,0,255,0.5);
   border: 2px solid 000000;
   border-radius: 16px;
   font-family: sans-serif;
@@ -30,14 +31,6 @@ body {
   width: 60%;
 }
 
-td {
-  border-style: double;
-  border-color: blue;
-}
-
-tr {
-color: ;
-}
 
 .BC {
   color: white;
@@ -58,7 +51,7 @@ color: ;
   background-clip: text;
 }
 
-ul {
+ul.menu {
   background-color: #333;
   position: fixed;
   width: 100%;
@@ -67,12 +60,12 @@ ul {
   position: fixed;
 }
 
-li {
+ul.menu li {
   float: left;
   list-style-type: none;
 }
 
-li a {
+ul.menu li a{
   display: block;
   color: #f2f2f2;
   text-align: center;
@@ -81,8 +74,20 @@ li a {
   font-size: 17px;
 }
 
-li a:hover:not(.active) {
+ul.menu li a:hover:not(.active) {
   background-color: #111;
+}
+
+ul.reisbestemmingen {
+  /* background-color: lightsalmon;
+  padding: 10px */
+}
+ul.reisbestemmingen li{
+  /* background-color: gold; */
+  /* border: black 2px solid; */
+  /* margin: 5px; */
+  /* color: lightseagreen; */
+  list-style: inside square none;
 }
 
 .active {
@@ -94,11 +99,57 @@ h1, h2, h3, h4 {
   text-align: center;
 }
 
+.Kostentabel {
+  border: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: darkolivegreen;
+  color: khaki;
+  border-color: silver;
+}
+
 .Tabel {
   margin-left: auto;
   margin-right: auto;
+  background-color: black;
+  color: white;
+  border-color: silver;
+  border-collapse: collapse;
+  margin-bottom: 10%;
+}
+.corner{
+  background-color: black;
+  border: 1px solid blue;
+}
+.Gracht{
+
+}
+.Gracht img{
+  width: 50%;
+
+}
+.totaal{
+  color: yellow;
 }
 
+.Tabel th{
+  border: 1px solid cyan;
+}
+.Tabel td{
+  border: 1px solid red;
+}
+.reisbestemmingen{
+  color: rgba(255,165,0,0.8);
+}
+
+/* td {
+  border-style: double;
+  border-color: blue;
+}
+
+tr {
+  color: ;
+} */
 
 
 
